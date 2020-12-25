@@ -24,17 +24,6 @@ for i in range(q):
   #  if len(var) >= 10:
     #    print(index+1, var[:])
 
-goods = []
-while input("Would you like add product? Enter yes/no: ") == 'yes':
-    number = int(input("Enter product number: "))
-    features = {}
-    while input("Would you like add product parameters? Enter yes/no: ") == 'yes':
-        feature_key = input("Enter feature product: ")
-        feature_value = input("Enter feature value product: ")
-        features[feature_key] = feature_value
-    goods.append(tuple([number, features]))
-print(goods)
-
 #5
 """
 Программа запрашивает у пользователя строку чисел, разделенных пробелом. При нажатии Enter должна выводиться сумма чисел. 
