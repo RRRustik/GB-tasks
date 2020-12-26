@@ -9,7 +9,6 @@ def calc(number1, number2):
 print(calc(number1,number2)) #Почему он подчеркивает?
 
 """
-
 #2
 """ 
 Реализовать функцию, принимающую несколько параметров, описывающих данные пользователя: 
@@ -23,7 +22,6 @@ def personal_data(name, surname, birthday, Registration, email, tel):
 n = input("Введите имя: ")
 print(personal_data(name = n, surname = "Ryz", birthday = "12oct", Registration = "Moscow", email = "GBmail", tel = 84958505500)) # При написании почты как можно заменить точку?
 """
-
 
 #3
 """ 
@@ -58,6 +56,7 @@ def my_func(x,y):
         i += 1
     return calc
 print(my_func(x,y))
+
 
 #6
 """

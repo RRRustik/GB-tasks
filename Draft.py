@@ -40,8 +40,6 @@ def sum_func(num):
     for index, var in enumerate(b):
         sum_num += num[index]
     return sum_num
-
-
 print(sum_func(num))
 
 

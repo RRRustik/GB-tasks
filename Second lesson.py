@@ -77,7 +77,6 @@ print(new_set)
 """
 #6
 q = int(input("Введите кол-во товаров: "))
-
 goods = []
 dict1 = {}
 i = 0
