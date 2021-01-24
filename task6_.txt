@@ -1,0 +1,4 @@
+Math: 50(l) 10(pr) 12(lab)
+Phisics: 100(l) 23(lab)
+Philosofy: 5l(l) 1(pr)
+Chemistry: 1(lab)
