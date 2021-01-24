@@ -15,6 +15,7 @@ import re
 
 dict = {}
 l = []
+
 with open("task6_.txt", "r") as file_6:
 
     for line in file_6:
@@ -22,13 +23,12 @@ with open("task6_.txt", "r") as file_6:
         l.clear()
 
         for i in range(1, len(line)):
-            a = re.findall(r'\d+', line[i], flags=re.ASCII)
+            a = re.findall(r'\d+', line[i])
             n = int(a[0])
             l.append(n)
         summa = sum(l)
-
-
         dict[line[0]] = summa
+
     print(dict)
 
 
